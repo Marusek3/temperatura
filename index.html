@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperatura converter</title>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="info">
+        <label for="degrees">Stopnie:</label><br>
+        <input type="number" id="degrees" placeholder="Stopnie" autocomplete="false"><br>
+
+        <label for="typ">Jednostki:</label>
+        <div id="typ">
+            <input type="radio" id="Fahrenheit" name="type" value="Fahrenheit">
+            <label for="Fahrenheit">Fahrenheit</label>
+
+            <input type="radio" id="Celsius" name="type" value="Celsius">
+            <label for="Celsius">Celsius</label>
+
+            <input type="radio" id="Kelvin" name="type" value="Kelvin">
+            <label for="Kelvin">Kelvin</label>
+        </div>
+        <input type="button" value="Prześlij" id="submit">
+        <h1 id="output">Output</h1>
+    </form>
+</body>
+
+</html>
